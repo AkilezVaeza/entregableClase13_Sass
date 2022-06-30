@@ -1,0 +1,22 @@
+.mas{
+    background-color: $colorSecundario;
+    padding: 15px;
+    color: $colorBlanco;
+    border-radius: 5px;
+    h5{
+        font-size: $tamanioTitulo;
+    }
+    p{
+        font-size: $parrafo;
+    }
+    .boton{
+        border: 0;
+        border-radius: 5px;
+        padding: 8px 15px;
+        background-color: $colorPrimario;
+        color: $colorBlanco;
+        &:hover{
+            background-color: $colorSecundarioHover;
+        }
+    }
+}
